@@ -76,9 +76,11 @@ li {
 .nav-links .subnav {
     display: none;
     position: absolute;
-    background-color: rgb(73, 71, 71);
+    background-color: rgb(255, 255, 255);
     width: 250px;
 }
+
+
 
 .nav-links .subnav li {
     margin: 10px;
@@ -94,6 +96,35 @@ li {
 } */
 
 .nav-links li:hover .subnav {
+    display: block;
+}
+
+.nav-links .subnavs {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+.nav-links .subnavs h3 {
+    margin: 10px;
+    color: #b2910e;
+}
+
+.nav-links .subnavs li {
+    margin: 10px;
+}
+
+.nav-links .subnavs a {
+    color: black;
+}
+
+/* .nav-links>li:hover>a {
+    color: black;
+    background-color: rgb(82, 72, 72);
+} */
+
+.nav-links li:hover .subnavs {
     display: block;
 }
 
@@ -163,7 +194,6 @@ form button {
 
 .bd-tt-01 {
     width: 100%;
-    height: 840px;
     /* background-image: url('../Images/sg-01.jpg'); */
     background-repeat: no-repeat;
 }
@@ -369,9 +399,9 @@ body,
 .slide-content {
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 100vh;
     overflow-x: hidden;
 }
 
@@ -415,6 +445,30 @@ body,
 
 .slide8 {
     background-image: url("https://vietnam.travel/sites/default/files/styles/top_banner/public/2020-02/Vietnam%20Tourism-10.jpg?itok=bGsLC20o");
+}
+
+.slide9 {
+    background-image: url("https://vietnam.travel/sites/default/files/styles/top_banner/public/2020-04/My%20Vietnam%20-%20local%20guides%20vietnam%20travel-3_1.jpg?itok=yC6ly4XW");
+}
+
+.slide10 {
+    background-image: url("https://vietnam.travel/sites/default/files/styles/top_banner/public/2020-04/what%20to%20eat%20in%20hue.jpg?itok=tO0boDM3");
+}
+
+.slide11 {
+    background-image: url("https://vietnam.travel/sites/default/files/styles/top_banner/public/2020-04/My%20Vietnam%20videos.jpg?itok=OixKmiXB");
+}
+
+.slide12 {
+    background-image: url("../Images/bg1.png");
+}
+
+.slide13 {
+    background-image: url("../Images/bg2.png");
+}
+
+.slide14 {
+    background-image: url("../Images/bg3.png");
 }
 
 .slide-content {
@@ -687,6 +741,11 @@ section {
     background-size: cover;
 }
 
+.griding .image span {
+    bottom: 0;
+}
+
+
 .griding .title {
     text-align: center;
     padding: 10px;
@@ -726,6 +785,11 @@ section {
 
 .gridings {
     height: 250px;
+    margin: 0px 100px 0px 100px;
+}
+
+.gridings-nature {
+    height: 550px;
     margin: 0px 100px 0px 100px;
 }
 
@@ -916,9 +980,76 @@ p.quote__quote.gutter-bottom {
     width: 400px;
     height: 400px;
     padding: 30px;
+
 }
 
 #myDIV2 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV3 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV4 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+
+}
+
+#myDIV5 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV6 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV7 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+
+}
+
+#myDIV8 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV9 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+
+#myDIV10 {
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+
+}
+
+#myDIV11 {
     display: none;
     width: 400px;
     height: 400px;
@@ -932,8 +1063,9 @@ p.quote__quote.gutter-bottom {
 .tabcontent .blog-content {
     display: flex;
     flex-direction: row;
-    background: lightblue;
+    background: rgb(0, 0, 0, 0.4);
     padding: 2rem;
+    margin: 0px 300px;
 }
 
 .tabcontent .title {
@@ -977,10 +1109,12 @@ p.quote__quote.gutter-bottom {
 
 /* planyourtrip*/
 .inforgraphics {
-    background-color: #ebebeb;
+    background-color: #fff;
     text-align: center;
-    height: 700px;
+    height: 1000px;
 }
+
+
 
 .infog-container h1 {
     font-size: 35px;
@@ -992,9 +1126,159 @@ p.quote__quote.gutter-bottom {
     font-size: 20px;
 }
 
+.infog-container {
+    text-align: center;
+}
+
+
 .infog-container .gridingg {
-    margin-bottom: 30px;
+    margin: 40px;
+    display: flex;
+}
+
+.infog-container .gridingg {
+    margin: 40px 390px;
+    display: flex;
+}
+
+.infog-container .gridingg .grid-img {
+    margin-right: 20px;
 }
 
 
 /*end planyourtrip*/
+
+/* virtual*/
+
+#myvn {
+    background-image: url('../Images/bg-home-inspire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#guides {
+    width: 100%;
+    background-color: #fff;
+}
+
+#guides .gui-container {
+    margin: 0 200px;
+}
+
+
+#guides .col-gd-6 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: -70px;
+}
+
+.item-gd {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+#guides .item-gd li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.list-gd {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+}
+
+.block-item {
+    display: block;
+    border: 1px solid #959595;
+    text-decoration: none;
+    color: #252525;
+}
+
+.wrap-thumb-gd {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbs {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease;
+}
+
+.wrap-thumb-gd img {
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+.wrap-avatar-gd {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+    margin: -30px auto 10px;
+    border-radius: 50%;
+}
+
+.wrap-avatar-gd img {
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+.author-gd,
+.cap-gd {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: VNFGothamBold, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+
+
+/*end virtual*/
+
+
+/*FOOD*/
+#btn-food {
+    margin-left: 900px;
+}
+
+.wrap-tt-food {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+    background-color: #a1100f;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.bd-tt-02 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*END FOOD*/

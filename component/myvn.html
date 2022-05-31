@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NAVIGATION</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="header">
+        <div class="header-nav">
+            <div class="logo">
+                <a aria-label="img" href="../index.html">
+                    <img src="../Images/logo.png" alt="" width="70px" height="70px" />
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#"> Live fully in Vietnam </a>
+                    <ul class="subnav">
+                        <li>
+                            <a href="/component/myvn.html" style="color: #a5190e;"> My Vietnam </a>
+                        </li>
+                        <li>
+                            <a href="/component/virtual.html"> Virtual Vietnam </a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#"> Things to do </a>
+                    <ul class="subnavs">
+                        <h3>HIGHLIGHT</h3>
+                        <li>
+                            <a href="/component/food.html"> FOOT </a>
+                        </li>
+                        <li>
+                            <a href="/component/nature.html"> NATURE </a>
+                        </li>
+                        <li>
+                            <a href="/component/myvn.html"> CULTURE </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/component/greentravel.html"> Green travel </a>
+                </li>
+                <li>
+                    <a href="/component/planyourtrip.html"> Plan your trip </a>
+                </li>
+            </ul>
+            <div class="btn">
+                <a class="btn-signin" href="#">Sign in</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- body title -->
+    <div class="bd-tt-01">
+        <div class="bd-container">
+            <img src="/Images/aodai1.jpg" style="background-size: cover;" alt="" />
+            <div class="bd-tt-img-01">
+                <h2 class="heading--1">My Viet Nam</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- myvn -->
+
+    <div id="myvn">
+        <div class="gridings">
+            <div class="grid__item grid__item--mobile-up-align-center text-center pillar-testimonial--inline">
+                <div class="quote text-center color-black">
+                    <blockquote>
+                        <h1>A LOCAL PERSPECTIVE</h1>
+                        <p class="quote__quote gutter-bottom">#MyVietnam is a chance for travellers to see Vietnam
+                            through the eyes of the people who call it home. Here, Vietnamese from north to south share
+                            personal stories and favourite moments from their cities.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="griding">
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-1" onclick="show_hide3()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video.jpg?itok=eCnhIn8n">
+                        <p style="font-size: 20px;">My Hue <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+
+                    <!-- <div class="title">
+                        <h1>
+                            VIETNAMESE CULTURE</h1>
+                    </div>
+                    <div class="des">
+                        <p>Brush up on local etiquette</p>
+                        <button onclick="show_hide3()">Read More...</button>
+                    </div> -->
+
+                </div>
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-2" onclick="show_hide4()">
+                        <img alt=""
+                            src="
+                        https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-6.jpg?itok=6V6B-62G">
+                        <p style="font-size: 20px;">My DaLat <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" onclick="show_hide5()" href="#img-3">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-20.jpg?itok=6iPYtguW">
+                        <p style="font-size: 20px;">My Hoi An <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- detail1 -->
+
+        <div id="myDIV3">
+            <div class="data-content">
+                <div id="img-1" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hn2QOcilmtY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY HUE</h2>
+                            <p>Hương Lan is a private tour guide from the city of Huế in Central Vietnam. A
+                                part-time
+                                blogger and long-time Huế enthusiast, Lan walks us through her version of Huế --
+                                an
+                                imperial city whose tombs and citadels still echo with poetry -- and talks about
+                                her
+                                special connection with the Perfume River.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide3()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV4">
+            <div class="data-content">
+                <div id="img-2" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Mgyk--aWo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY DA LAT</h2>
+                            <p>Thanh Liêm is a travel company manager with a knack for conquering Đà Lạt’s
+                                waterfalls.
+                                Liêm shows us exactly why he loves living in Đà Lạt: quiet lakes, great weather,
+                                and
+                                thrilling adventures in nature. </p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide4()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV5">
+            <div class="data-content">
+                <div id="img-3" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8W2lFeKfaUk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY HOI AN</h2>
+                            <p>Discover the captivating port town of Hội An with Châu Lê, a receptionist at
+                                local
+                                coworking space Hub Hoi An. Beyond the UNESCO-listed Ancient Town, Châu reveals
+                                her
+                                favourite parts of life in Hội An, including cycling through rice paddies,
+                                afternoons on
+                                An Bàng Beach and tempting noodle dishes. </p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide5()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end detail 1 -->
+
+        <div class="griding">
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-4" onclick="show_hide6()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-21.jpg?itok=-f44pMMG">
+                        <p style="font-size: 20px;">My Ho Chi Minh City <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-5" onclick="show_hide7()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-15.jpg?itok=FqjUizEa ">
+                        <p style="font-size: 20px;">My Da Nang <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-6" onclick="show_hide8()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-4.jpg?itok=3iNHnJok">
+                        <p style="font-size: 20px;">My Sa Pa <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- detail2 -->
+
+        <div id="myDIV6">
+            <div class="data-content">
+                <div id="img-1" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/eA6NmUur-9Q"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY HO CHI MINH CITY</h2>
+                            <p>See up-and-coming Ho Chí Minh City with Nam Quản. Nam is a fashion designer,
+                                entrepreneur, avid sneakerhead and true Saigonese at heart. Through #MyVietnam, he
+                                shares why he loves Ho Chí Minh City and how the southern hub inspires his work. </p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide6()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV7">
+            <div class="data-content">
+                <div id="img-2" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/I2LCRxP9CSk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY DA NANG</h2>
+                            <p>Spend a day with Nguyễn Văn Đồng, a personal trainer who loves the healthy lifestyle of
+                                the coastal city he calls home. Here, Đồng shares his top things to do in Đà Nẵng, from
+                                beach-side runs to local lunches.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide7()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV8">
+            <div class="data-content">
+                <div id="img-3" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BI9u3WjfnmU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY SAPA</h2>
+                            <p>In the mountains of Sapa, tour guide and mother Ker gives a glimpse into the culture of
+                                the Black H’Mong ethnic minority. From making textiles, to cooking traditional dishes,
+                                Ker strives to pass her heritage on to her children, and show travellers there’s more to
+                                Sapa than meets the eye.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide8()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end detail2 -->
+
+        <div class="griding">
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-7" onclick="show_hide9()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-05/My%20Phong%20Nha%20-%20Vietnam%20Travel-2.jpg?itok=8nt2P2Zh">
+                        <p style="font-size: 20px;">My Phong Nha <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-8" onclick="show_hide10()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-05/My%20Nha%20Trang%20-%20Vietnam%20Travel.jpg?itok=643v00oX">
+                        <p style="font-size: 20px;">My Nha Trang <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+            <div class="grid-img">
+                <div class="image">
+                    <a aria-label="img" href="#img-9" onclick="show_hide11()">
+                        <img alt=""
+                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-12.jpg?itok=SrfV28fJ">
+                        <p style="font-size: 20px;">My Ha Noi <span class="glyphicon glyphicon-play"></span>
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- detail3 -->
+
+        <div id="myDIV9">
+            <div class="data-content">
+                <div id="img-1" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vTn73aAtD34"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY PHONG NHA</h2>
+                            <p>Growing up among the awe-inspiring landscapes of Phong Nha, Ngân is always up for an
+                                adventure. From exploring underground caves to kayaking on the Son River, Ngân shares
+                                her favourite parts about living in Phong Nha.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide9()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV10">
+            <div class="data-content">
+                <div id="img-2" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_m3eNJ7h9K4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY NHA TRANG</h2>
+                            <p>Tourism student and Nha Trang local Đại splits his time between his university and the
+                                beach. Here he shares the beauty of his coastal city, his favourite dish, and why Nha
+                                Trang has so much to offer travellers.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide10()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myDIV11">
+            <div class="data-content">
+                <div id="img-3" class="tabcontent ">
+                    <div class="blog-content">
+                        <div class="img">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/cmY1LfX3Aa4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="title">
+                            <h2>MY HANOI</h2>
+                            <p>Hanoian artist Nga Phạm invites us on a motorbike ride around her hometown. See Nga’s
+                                favourite spots around the Vietnamese capital and find out why she feels the city is the
+                                perfect blend of old and new.</p>
+                            <button type="button" class="btn-blog">Read More</button>
+                        </div>
+                        <span onclick="show_hide11()">Close</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end detail3 -->
+
+
+        <!--list img-->
+        <div class="wrap">
+            <div id="arrow-left" class="arrow"></div>
+            <div id="slider">
+                <div class="slide slide9">
+                    <div class="slide-content">
+                        <span>#MyVietnam</span>
+                    </div>
+                </div>
+                <div class="slide slide10">
+                    <div class="slide-content">
+                        <span>How to eat like a local in Hue</span>
+                    </div>
+                </div>
+                <div class="slide slide11">
+                    <div class="slide-content">
+                        <span>#MyVietnam in motion </span>
+                    </div>
+                </div>
+            </div>
+            <div id="arrow-right" class="arrow"></div>
+        </div>
+
+        <!--end list img-->
+    </div>
+    <!-- GUIDES -->
+    <div id="guides">
+        <!-- /* grid 1 */ -->
+        <div class="gridings">
+            <div class="grid__item grid__item--mobile-up-align-center text-center pillar-testimonial--inline">
+                <div class="quote text-center color-black">
+                    <blockquote>
+                        <h1>INSIDER GUIDES</h1>
+                        <p class="quote__quote gutter-bottom">Get an inside look at Vietnam’s best destinations. Let
+                            these locals show you around their hometowns with top tips and must-do experiences.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="col-gd-6">
+            <div class="wrap-author">
+                <div class="wrap-list">
+                    <ul class="list-gd">
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/My%20Vietnam%20travel-1-3.JPG?itok=h2V00qfq" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/%23MyVietnam-7-2.JPG?itok=yscTz7U3" />
+                                </div>
+                                <span class="author-gd">My HCMC</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/%23MyVietnam-2.JPG?itok=RuCO5l60" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/Vietnam%20travel%20guide.JPG?itok=z_5zTUf4" />
+                                </div>
+                                <span class="author-gd">My HUE</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/Vietnam%20tourism%20%282%29.JPG?itok=YqnuM16F" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/Vietnam%20local%20guide.JPG?itok=JzK3F4b4" />
+                                </div>
+                                <span class="author-gd">My HN</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/%23MyVietnam-3-2.JPG?itok=JCiM5pli" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/Vietnam%20tourism%20videos.JPG?itok=rQheY8xV" />
+                                </div>
+                                <span class="author-gd">MY PHONG NHA</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/%23MyVietnam-8.JPG?itok=4g2GGnWd" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/My%20Vietnam%20travel%20guide.JPG?itok=9dZORAmK" />
+                                </div>
+                                <span class="author-gd">My HOIAN</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+
+                        <li class="item-gd">
+                            <a class="block-item">
+                                <div class="wrap-thumb-gd">
+                                    <img class="thumbs"
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/My%20Vietnam%20new%20page-1-2.JPG?itok=hhyB4Vlq" />
+                                </div>
+                                <div class="wrap-avatar-gd">
+                                    <img
+                                        src="https://vietnam.travel/sites/default/files/styles/large/public/2020-06/Vietnam%20local%20guide%20%282%29.JPG?itok=xbl_0jMf" />
+                                </div>
+                                <span class="author-gd">My DA LAT</span>
+                                <span class="cap-gd">Entrepreneur Nam Quan</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--end GUIDES -->
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="#"> About </a>
+            <a href="#"> Services </a>
+            <a href="#"> Contact </a>
+            <a href="#"> Shop </a>
+            <a href="#"> Blog </a>
+        </div>
+        <div class="col-2">
+            <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+            <p>Receive new travel stories from Vietnam once a month in your inbox.</p>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">GIGN UP</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <p>123,asdasdas,VN<br> Ha Noi,VN</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-behance"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+<script>
+    let sliderImages = document.querySelectorAll(".slide"),
+        arrowLeft = document.querySelector("#arrow-left"),
+        arrowRight = document.querySelector("#arrow-right"),
+        current = 0;
+
+    // Clear all images
+    function reset() {
+        for (let i = 0; i < sliderImages.length; i++) {
+            sliderImages[i].style.display = "none";
+        }
+    }
+
+    // Init slider
+    function startSlide() {
+        reset();
+        sliderImages[0].style.display = "block";
+    }
+
+    // Show prev
+    function slideLeft() {
+        reset();
+        sliderImages[current - 1].style.display = "block";
+        current--;
+    }
+
+    // Show next
+    function slideRight() {
+        reset();
+        sliderImages[current + 1].style.display = "block";
+        current++;
+    }
+
+    // Left arrow click
+    arrowLeft.addEventListener("click", function () {
+        if (current === 0) {
+            current = sliderImages.length;
+        }
+        slideLeft();
+    });
+
+    // Right arrow click
+    arrowRight.addEventListener("click", function () {
+        if (current === sliderImages.length - 1) {
+            current = -1;
+        }
+        slideRight();
+    });
+
+    startSlide();
+</script>
+
+
+
+</html>

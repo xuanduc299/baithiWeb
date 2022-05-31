@@ -1,52 +1,3 @@
-// let sliderImages = document.querySelectorAll(".slide"),
-//     arrowLeft = document.querySelector("#arrow-left"),
-//     arrowRight = document.querySelector("#arrow-right"),
-//     current = 0;
-
-// // Clear all images
-// function reset() {
-//     for (let i = 0; i < sliderImages.length; i++) {
-//         sliderImages[i].style.display = "none";
-//     }
-// }
-
-// // Init slider
-// function startSlide() {
-//     reset();
-//     sliderImages[0].style.display = "block";
-// }
-
-// // Show prev
-// function slideLeft() {
-//     reset();
-//     sliderImages[current - 1].style.display = "block";
-//     current--;
-// }
-
-// // Show next
-// function slideRight() {
-//     reset();
-//     sliderImages[current + 1].style.display = "block";
-//     current++;
-// }
-
-// // Left arrow click
-// arrowLeft.addEventListener("click", function () {
-//     if (current === 0) {
-//         current = sliderImages.length;
-//     }
-//     slideLeft();
-// });
-
-// // Right arrow click
-// arrowRight.addEventListener("click", function () {
-//     if (current === sliderImages.length - 1) {
-//         current = -1;
-//     }
-//     slideRight();
-// });
-
-// startSlide();
 var a;
 function show_hide() {
     if (a == 1) {
@@ -81,6 +32,117 @@ function show_hide2() {
     }
     else {
         document.getElementById("myDIV2").style.display = "none";
+        return a = 1;
+    }
+}
+
+function show_hide5() {
+    if (a == 1) {
+        document.getElementById("myDIV5").style.display = "inline";
+        document.getElementById("myDIV3").style.display = "none";
+        document.getElementById("myDIV4").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV5").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide3() {
+    if (a == 1) {
+        document.getElementById("myDIV3").style.display = "inline";
+        document.getElementById("myDIV4").style.display = "none";
+        document.getElementById("myDIV5").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV3").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide4() {
+    if (a == 1) {
+        document.getElementById("myDIV4").style.display = "inline";
+        document.getElementById("myDIV3").style.display = "none";
+        document.getElementById("myDIV5").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV4").style.display = "none";
+        return a = 1;
+    }
+}
+
+function show_hide6() {
+    if (a == 1) {
+        document.getElementById("myDIV6").style.display = "inline";
+        document.getElementById("myDIV7").style.display = "none";
+        document.getElementById("myDIV9").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV6").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide7() {
+    if (a == 1) {
+        document.getElementById("myDIV7").style.display = "inline";
+        document.getElementById("myDIV8").style.display = "none";
+        document.getElementById("myDIV6").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV7").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide8() {
+    if (a == 1) {
+        document.getElementById("myDIV8").style.display = "inline";
+        document.getElementById("myDIV7").style.display = "none";
+        document.getElementById("myDIV6").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV8").style.display = "none";
+        return a = 1;
+    }
+}
+
+function show_hide9() {
+    if (a == 1) {
+        document.getElementById("myDIV9").style.display = "inline";
+        document.getElementById("myDIV11").style.display = "none";
+        document.getElementById("myDIV10").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV9").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide10() {
+    if (a == 1) {
+        document.getElementById("myDIV10").style.display = "inline";
+        document.getElementById("myDIV9").style.display = "none";
+        document.getElementById("myDIV11").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV10").style.display = "none";
+        return a = 1;
+    }
+}
+function show_hide11() {
+    if (a == 1) {
+        document.getElementById("myDIV11").style.display = "inline";
+        document.getElementById("myDIV10").style.display = "none";
+        document.getElementById("myDIV9").style.display = "none";
+        return a = 0;
+    }
+    else {
+        document.getElementById("myDIV11").style.display = "none";
         return a = 1;
     }
 }
