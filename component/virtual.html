@@ -144,12 +144,35 @@
     </div>
 
     <!-- gif2 -->
-    <div class="bd-tt-01">
+    <!-- <div class="bd-tt-01">
         <div class="bd-container">
             <img src="/Images/vnn.gif" width="1902" height="840" alt="" />
             <div class="bd-tt-img-01">
                 <h2 class="heading--1">Virtual travel</h2>
             </div>
+        </div>
+    </div> -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/Images/banner-home-06.jpg" width="1920" height="980">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/Images/bg4.png" width="1920" height="980">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/Images/banner-home-07.jpg" width="1920" height="980">
+        </div>
+        <div class="mySlides fade">
+            <img src="/Images/vn1.jpg" width="1920" height="980">
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
     </div>
 
@@ -173,8 +196,7 @@
             <div class="grid-img">
                 <div class="image">
                     <a aria-label="img" href="#img-1">
-                        <img alt=""
-                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video.jpg?itok=eCnhIn8n">
+                        <img alt="" src="/Images/myvn-01.jpg">
                     </a>
 
                 </div>
@@ -190,8 +212,7 @@
             <div class="grid-img">
                 <div class="image">
                     <a aria-label="img" href="#img-2">
-                        <img alt=""
-                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-6.jpg?itok=6V6B-62G">
+                        <img alt="" src="/Images/myvn-02.jpg">
                     </a>
 
                 </div>
@@ -207,8 +228,7 @@
             <div class="grid-img">
                 <div class="image">
                     <a aria-label="img" href="#img-3">
-                        <img alt=""
-                            src="https://vietnam.travel/sites/default/files/styles/charm_thumb/public/2020-04/My%20Vietnam%20Video-20.jpg?itok=6iPYtguW">
+                        <img alt="" src="/Images/myvn-03.jpg">
                     </a>
 
                 </div>
@@ -293,7 +313,65 @@
         </div>
     </div>
 
+    <!-- myvn -->
 
+    <!--inforgraphics-->
+    <div class="inforgraphics">
+        <div class="infog-container">
+            <h1>INTERACTIVE TOURS</h1>
+            <p>Each Vietnamese destination has its own distinct character.
+                <br> Get a feel for favourite travel sites in
+                these tours.
+            </p>
+            <div class="gridingg">
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_socialthumbnail.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_socialthumbnail_1.jpg">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_socialthumbnail_2.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="gridingg">
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_socialthumbnail_3.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_1socialthumbnail_4.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="grid-img">
+                    <div class="image">
+                        <a aria-label="img" href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm">
+                            <img alt="" src="/Images/rsz_11socialthumbnail_5.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- footer -->
@@ -331,6 +409,26 @@
     <script src="/js/main.js"></script>
 </body>
 
+<script>
+    let slideIndex = 0;
+    showSlides();
 
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+</script>
 
 </html>
